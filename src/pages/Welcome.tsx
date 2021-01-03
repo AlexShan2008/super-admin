@@ -3,8 +3,14 @@ import { PageContainer, SettingDrawer } from '@ant-design/pro-layout';
 import { Card, Alert } from 'antd';
 import { useIntl } from 'umi';
 
-export default (): React.ReactNode => {
+type WelcomeProps = {
+  children?: React.ReactElement | undefined | null;
+};
+
+export default (props: WelcomeProps): React.ReactNode => {
   const intl = useIntl();
+  const { children } = props;
+
   return (
     <PageContainer>
       <Card>
@@ -22,6 +28,7 @@ export default (): React.ReactNode => {
           }}
         />
       </Card>
+      {children}
       <SettingDrawer />
     </PageContainer>
   );
