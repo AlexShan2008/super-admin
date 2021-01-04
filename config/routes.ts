@@ -32,13 +32,6 @@
                 name: 'welcome',
                 icon: 'smile',
                 component: './Welcome',
-                routes: [
-                  {
-                    path: '/welcome/sub-page',
-                    name: 'Sub Page',
-                    component: './SubPage',
-                  },
-                ],
               },
               {
                 path: '/admin',

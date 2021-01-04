@@ -1,5 +1,5 @@
 import React from 'react';
-import { PageContainer, SettingDrawer } from '@ant-design/pro-layout';
+import { PageContainer } from '@ant-design/pro-layout';
 import { Card, Alert } from 'antd';
 import { useIntl } from 'umi';
 
@@ -29,7 +29,6 @@ export default (props: WelcomeProps): React.ReactNode => {
         />
       </Card>
       {children}
-      <SettingDrawer />
     </PageContainer>
   );
 };
