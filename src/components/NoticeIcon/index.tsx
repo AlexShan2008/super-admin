@@ -1,10 +1,10 @@
-import { BellOutlined } from '@ant-design/icons';
 import { Badge, Spin, Tabs } from 'antd';
-import useMergedState from 'rc-util/es/hooks/useMergedState';
+import { BellOutlined } from '@ant-design/icons';
+import NoticeList from './NoticeList';
 import React from 'react';
 import classNames from 'classnames';
+import useMergedState from 'rc-util/es/hooks/useMergedState';
 import type { NoticeIconTabProps } from './NoticeList';
-import NoticeList from './NoticeList';
 
 import HeaderDropdown from '../HeaderDropdown';
 import styles from './index.less';

@@ -2,8 +2,8 @@ import { Avatar, List } from 'antd';
 
 import React from 'react';
 import classNames from 'classnames';
-import type { NoticeIconData } from './index';
 import styles from './NoticeList.less';
+import type { NoticeIconData } from './index';
 
 export type NoticeIconTabProps = {
   count?: number;

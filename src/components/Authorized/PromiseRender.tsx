@@ -1,7 +1,7 @@
-import React from 'react';
 import { Spin } from 'antd';
-import isEqual from 'lodash/isEqual';
 import { isComponentClass } from './Secured';
+import React from 'react';
+import isEqual from 'lodash/isEqual';
 // eslint-disable-next-line import/no-cycle
 
 type PromiseRenderProps<T, K> = {

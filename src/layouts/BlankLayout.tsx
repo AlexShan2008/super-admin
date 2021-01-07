@@ -1,5 +1,5 @@
-import React from 'react';
 import { Inspector } from 'react-dev-inspector';
+import React from 'react';
 
 const InspectorWrapper = process.env.NODE_ENV === 'development' ? Inspector : React.Fragment;
 

@@ -1,11 +1,11 @@
-import { stringify } from 'querystring';
-import type { Reducer, Effect } from 'umi';
 import { history } from 'umi';
+import { stringify } from 'querystring';
+import type { Effect, Reducer } from 'umi';
 
 import { fakeAccountLogin } from '@/services/login';
-import { setAuthority } from '@/utils/authority';
 import { getPageQuery } from '@/utils/utils';
 import { message } from 'antd';
+import { setAuthority } from '@/utils/authority';
 
 export type StateType = {
   status?: 'ok' | 'error';

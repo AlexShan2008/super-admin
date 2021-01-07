@@ -5,4 +5,15 @@ module.exports = {
     page: true,
     REACT_APP_ENV: true,
   },
+  plugins: ['sort-imports-es6-autofix'],
+  rules: {
+    'sort-imports-es6-autofix/sort-imports-es6': [
+      2,
+      {
+        ignoreCase: false,
+        ignoreMemberSort: false,
+        memberSyntaxSortOrder: ['none', 'all', 'multiple', 'single'],
+      },
+    ],
+  },
 };

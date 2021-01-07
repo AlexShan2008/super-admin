@@ -1,7 +1,7 @@
-import React from 'react';
+import { Alert, Card } from 'antd';
 import { PageContainer } from '@ant-design/pro-layout';
-import { Card, Alert } from 'antd';
 import { useIntl } from 'umi';
+import React from 'react';
 
 type WelcomeProps = {
   children?: React.ReactElement | undefined | null;

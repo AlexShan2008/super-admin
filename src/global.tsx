@@ -1,7 +1,7 @@
 import { Button, message, notification } from 'antd';
 
-import React from 'react';
 import { useIntl } from 'umi';
+import React from 'react';
 import defaultSettings from '../config/defaultSettings';
 
 const { pwa } = defaultSettings;

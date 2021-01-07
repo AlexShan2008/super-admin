@@ -1,8 +1,8 @@
-import React from 'react';
+import { Alert, Card, Typography } from 'antd';
 import { HeartTwoTone, SmileTwoTone } from '@ant-design/icons';
-import { Card, Typography, Alert } from 'antd';
 import { PageHeaderWrapper } from '@ant-design/pro-layout';
 import { useIntl } from 'umi';
+import React from 'react';
 
 export default (): React.ReactNode => {
   const intl = useIntl();

@@ -1,12 +1,12 @@
-import { LogoutOutlined, SettingOutlined, UserOutlined } from '@ant-design/icons';
 import { Avatar, Menu, Spin } from 'antd';
+import { LogoutOutlined, SettingOutlined, UserOutlined } from '@ant-design/icons';
+import { connect, history } from 'umi';
+import HeaderDropdown from '../HeaderDropdown';
 import React from 'react';
+import styles from './index.less';
 import type { ConnectProps } from 'umi';
-import { history, connect } from 'umi';
 import type { ConnectState } from '@/models/connect';
 import type { CurrentUser } from '@/models/user';
-import HeaderDropdown from '../HeaderDropdown';
-import styles from './index.less';
 
 export type GlobalHeaderRightProps = {
   currentUser?: CurrentUser;

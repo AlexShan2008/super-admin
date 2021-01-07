@@ -1,6 +1,6 @@
-import type { Reducer } from 'umi';
-import type { DefaultSettings } from '../../config/defaultSettings';
 import defaultSettings from '../../config/defaultSettings';
+import type { DefaultSettings } from '../../config/defaultSettings';
+import type { Reducer } from 'umi';
 
 export type SettingModelType = {
   namespace: 'settings';

@@ -1,6 +1,6 @@
-import type { MenuDataItem, Settings as ProSettings } from '@ant-design/pro-layout';
 import { GlobalModelState } from './global';
 import { UserModelState } from './user';
+import type { MenuDataItem, Settings as ProSettings } from '@ant-design/pro-layout';
 import type { StateType } from './login';
 
 export { GlobalModelState, UserModelState };

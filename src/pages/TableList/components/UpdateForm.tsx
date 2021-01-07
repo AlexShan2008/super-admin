@@ -1,14 +1,14 @@
-import React from 'react';
+import { FormattedMessage, useIntl } from 'umi';
 import { Modal } from 'antd';
 import {
+  ProFormDateTimePicker,
+  ProFormRadio,
   ProFormSelect,
   ProFormText,
   ProFormTextArea,
   StepsForm,
-  ProFormRadio,
-  ProFormDateTimePicker,
 } from '@ant-design/pro-form';
-import { useIntl, FormattedMessage } from 'umi';
+import React from 'react';
 
 import type { TableListItem } from '../data.d';
 

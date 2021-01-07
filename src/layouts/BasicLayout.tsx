@@ -3,22 +3,22 @@
  * You can view component api by:
  * https://github.com/ant-design/ant-design-pro-layout
  */
+import { Button, Result } from 'antd';
+import { GithubOutlined } from '@ant-design/icons';
+import { Link, connect, history, useIntl } from 'umi';
+import { getMatchMenu } from '@umijs/route-utils';
+import Authorized from '@/utils/Authorized';
+import ProLayout, { DefaultFooter } from '@ant-design/pro-layout';
+import React, { useEffect, useMemo, useRef } from 'react';
+import RightContent from '@/components/GlobalHeader/RightContent';
+import logo from '../assets/logo.svg';
+import type { ConnectState } from '@/models/connect';
+import type { Dispatch } from 'umi';
 import type {
   MenuDataItem,
   BasicLayoutProps as ProLayoutProps,
   Settings,
 } from '@ant-design/pro-layout';
-import ProLayout, { DefaultFooter } from '@ant-design/pro-layout';
-import React, { useEffect, useMemo, useRef } from 'react';
-import type { Dispatch } from 'umi';
-import { Link, useIntl, connect, history } from 'umi';
-import { GithubOutlined } from '@ant-design/icons';
-import { Result, Button } from 'antd';
-import Authorized from '@/utils/Authorized';
-import RightContent from '@/components/GlobalHeader/RightContent';
-import type { ConnectState } from '@/models/connect';
-import { getMatchMenu } from '@umijs/route-utils';
-import logo from '../assets/logo.svg';
 
 const noMatch = (
   <Result
@@ -100,7 +100,7 @@ const BasicLayout: React.FC<BasicLayoutProps> = (props) => {
         type: 'user/fetchCurrent',
       });
     }
-  }, []);
+  }, [dispatch]);
   /**
    * init variables
    */
