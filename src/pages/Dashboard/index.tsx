@@ -1,9 +1,14 @@
+import PieChart from '@/components/PieChart';
 import React from 'react';
+import TrendingChart from '@/components/TrendingChart';
+import style from './index.less';
 
-import styles from './index.less';
-
-const Footer: React.FC = () => {
-  return <div className={styles.main}>Footer</div>;
+const Dashboard: React.FC = () => {
+  return (
+    <div className={style.main}>
+      <TrendingChart />
+      <PieChart />
+    </div>
+  );
 };
-
-export default Footer;
+export default Dashboard;

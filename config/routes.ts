@@ -25,13 +25,13 @@
             routes: [
               {
                 path: '/',
-                redirect: '/welcome',
+                redirect: '/dashboard',
               },
               {
-                path: '/welcome',
-                name: 'welcome',
+                path: '/dashboard',
+                name: 'dashboard',
                 icon: 'smile',
-                component: './Welcome',
+                component: './Dashboard',
               },
               {
                 path: '/admin',
