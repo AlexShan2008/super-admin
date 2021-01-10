@@ -15,5 +15,7 @@ module.exports = {
         memberSyntaxSortOrder: ['none', 'all', 'multiple', 'single'],
       },
     ],
+    'no-extra-semi': 'error',
+    'no-plusplus': 'off',
   },
 };

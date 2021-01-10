@@ -11,7 +11,7 @@ import UpdateForm from './components/UpdateForm';
 import type { ActionType, ProColumns } from '@ant-design/pro-table';
 import type { FormValueType } from './components/UpdateForm';
 import type { ProDescriptionsItemProps } from '@ant-design/pro-descriptions';
-import type { TableListItem } from './data.d';
+import type { TableListItem } from './data';
 
 /**
  * 添加节点

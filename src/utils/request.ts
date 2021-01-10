@@ -5,6 +5,8 @@
 import { extend } from 'umi-request';
 import { notification } from 'antd';
 
+const store = require('store');
+
 const codeMessage = {
   200: '服务器成功返回请求的数据。',
   201: '新建或修改数据成功。',
@@ -50,7 +52,11 @@ const errorHandler = (error: { response: Response }): Response => {
  */
 const request = extend({
   errorHandler, // 默认错误处理
+  timeout: 30000,
   credentials: 'include', // 默认请求是否带上cookie
+  headers: {
+    Authorization: `Bearer ${store.get('token')}`,
+  },
 });
 
 export default request;

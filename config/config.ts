@@ -23,7 +23,7 @@ export default defineConfig({
     baseNavigator: true,
   },
   dynamicImport: {
-    loading: '@/components/PageLoading/index',
+    loading: '@/components/page-loading/index',
   },
   targets: {
     ie: 11,

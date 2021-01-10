@@ -10,7 +10,7 @@ import {
 } from '@ant-design/pro-form';
 import React from 'react';
 
-import type { TableListItem } from '../data.d';
+import type { TableListItem } from '../data';
 
 export type FormValueType = {
   target?: string;

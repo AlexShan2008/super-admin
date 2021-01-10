@@ -1,6 +1,7 @@
-import { PageLoading } from '@ant-design/pro-layout';
 import { Redirect, connect } from 'umi';
 import { stringify } from 'querystring';
+import PageLoading from '@/components/page-loading';
+
 import React from 'react';
 import type { ConnectProps } from 'umi';
 import type { ConnectState } from '@/models/connect';

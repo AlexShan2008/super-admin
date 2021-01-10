@@ -6,7 +6,7 @@ import classNames from 'classnames';
 import useMergedState from 'rc-util/es/hooks/useMergedState';
 import type { NoticeIconTabProps } from './NoticeList';
 
-import HeaderDropdown from '../HeaderDropdown';
+import HeaderDropdown from '../header-dropdown';
 import styles from './index.less';
 
 const { TabPane } = Tabs;

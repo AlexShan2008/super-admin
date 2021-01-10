@@ -2,7 +2,7 @@ import { DefaultFooter, getMenuData, getPageTitle } from '@ant-design/pro-layout
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import React from 'react';
 import logo from '../assets/logo.svg';
-import styles from './UserLayout.less';
+import styles from './user-layout.less';
 import type { ConnectProps } from 'umi';
 import type { ConnectState } from '@/models/connect';
 import type { MenuDataItem } from '@ant-design/pro-layout';

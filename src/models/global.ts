@@ -2,7 +2,7 @@ import type { Effect, Reducer } from 'umi';
 
 import { queryNotices } from '@/services/user';
 import type { ConnectState } from './connect.d';
-import type { NoticeIconData } from '@/components/NoticeIcon';
+import type { NoticeIconData } from '@/components/notice-icon';
 
 export type NoticeItem = {
   id: string;

@@ -10,7 +10,7 @@ import { getMatchMenu } from '@umijs/route-utils';
 import Authorized from '@/utils/Authorized';
 import ProLayout, { DefaultFooter } from '@ant-design/pro-layout';
 import React, { useEffect, useMemo, useRef } from 'react';
-import RightContent from '@/components/GlobalHeader/RightContent';
+import RightContent from '@/components/global-header/RightContent';
 import logo from '../assets/logo.svg';
 import type { ConnectState } from '@/models/connect';
 import type { Dispatch } from 'umi';

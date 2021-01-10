@@ -1,26 +1,26 @@
 ﻿export default [
   {
     path: '/',
-    component: '../layouts/BlankLayout',
+    component: '../layouts/blank-layout',
     routes: [
       {
         path: '/user',
-        component: '../layouts/UserLayout',
+        component: '../layouts/user-layout',
         routes: [
           {
             name: 'login',
             path: '/user/login',
-            component: './User/login',
+            component: './user/login',
           },
         ],
       },
       {
         path: '/',
-        component: '../layouts/SecurityLayout',
+        component: '../layouts/security-layout',
         routes: [
           {
             path: '/',
-            component: '../layouts/BasicLayout',
+            component: '../layouts/basic-layout',
             authority: ['admin', 'user'],
             routes: [
               {
@@ -31,20 +31,20 @@
                 path: '/dashboard',
                 name: 'dashboard',
                 icon: 'smile',
-                component: './Dashboard',
+                component: './dashboard',
               },
               {
                 path: '/admin',
                 name: 'admin',
                 icon: 'crown',
-                component: './Admin',
+                component: './admin',
                 authority: ['admin'],
                 routes: [
                   {
                     path: '/admin/sub-page',
                     name: 'sub-page',
                     icon: 'smile',
-                    component: './Welcome',
+                    component: './welcome',
                     authority: ['admin'],
                   },
                 ],
@@ -53,7 +53,7 @@
                 name: 'list.table-list',
                 icon: 'table',
                 path: '/list',
-                component: './TableList',
+                component: './table-list',
               },
               {
                 component: './404',

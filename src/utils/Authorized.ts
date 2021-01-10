@@ -1,5 +1,5 @@
 import { getAuthority } from './authority';
-import RenderAuthorize from '@/components/Authorized';
+import RenderAuthorize from '@/components/authorized';
 /* eslint-disable eslint-comments/disable-enable-pair */
 /* eslint-disable import/no-mutable-exports */
 let Authorized = RenderAuthorize(getAuthority());

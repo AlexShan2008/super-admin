@@ -1,7 +1,7 @@
 import { Avatar, Menu, Spin } from 'antd';
 import { LogoutOutlined, SettingOutlined, UserOutlined } from '@ant-design/icons';
 import { connect, history } from 'umi';
-import HeaderDropdown from '../HeaderDropdown';
+import HeaderDropdown from '../header-dropdown';
 import React from 'react';
 import styles from './index.less';
 import type { ConnectProps } from 'umi';

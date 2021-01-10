@@ -1,6 +1,6 @@
 import { Tag, message } from 'antd';
 import { connect } from 'umi';
-import NoticeIcon from '../NoticeIcon';
+import NoticeIcon from '../notice-icon';
 import React, { Component } from 'react';
 import groupBy from 'lodash/groupBy';
 import moment from 'moment';
